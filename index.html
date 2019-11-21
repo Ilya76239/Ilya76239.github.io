@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Ilya's Portfolio</title>
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,29 +27,36 @@
     <main class="container">
       <section id="About" class="jumbotron">
         <h1 class="text-center">About</h1>
-        <p>
+        <p class="lead">
           This page will be for the Portfolio.
         </p>
-        <ul class="list-inline" id="social-media-buttons">
-          <li>
+        <div class="btn-group" role="group" id="social-media-buttons">
+          <button type="button" class="btn btn-light">
+            <a class="text-dark" href="https://codepen.io/Elijah743/"
+              ><i class="fa fa-codepen"></i> CodePen</a
+            >
+          </button>
+          <button type="button" class="btn btn-light">
+            <a class="text-dark" href="https://glitch.com/@Ilya76239"
+              ><i class="fa fa-bug"></i> Glitch</a
+            >
+          </button>
+          <button type="button" class="btn btn-light">
+            <a class="text-dark" href="https://github.com/Ilya76239"
+              ><i class="fa fa-github"></i> GitHub</a
+            >
+          </button>
+          <button type="button" class="btn btn-light">
             <a
-              class="btn btn-default btn-lg"
+              class="text-dark"
               href="https://www.freecodecamp.org/fcc5c59479d-ae00-4b73-af7f-2729e922f002"
               ><i class="fa fa-free-code-camp"></i> freeCodeCamp</a
             >
-          </li>
-          <li>
-            <a
-              class="btn btn-default btn-lg"
-              href="https://codepen.io/Elijah743/"
-              ><i class="fa fa-codepen"></i> CodePen</a
-            >
-          </li>
-        </ul>
+          </button>
+        </div>
       </section>
       <section id="Portfolio" class="container jumbotron">
         <h1 class="text-center">Portfolio</h1>
-
         <div class="row">
           <div class="col-sm-4">
             <figure class="figure">
