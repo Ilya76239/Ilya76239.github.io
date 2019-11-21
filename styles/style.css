@@ -1,0 +1,4 @@
+figure > a > img:hover {
+  opacity: 50%;
+  border: thin solid black;
+}
