@@ -2,3 +2,31 @@ figure > a > img:hover {
   opacity: 50%;
   border: thin solid black;
 }
+
+body,
+html {
+  height: 100%;
+  background-color: transparent;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/bg.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35vh;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
