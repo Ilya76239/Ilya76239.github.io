@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ilya's Portfolio</title>
+    <title>Ilya Front End Web Developer</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,10 +21,23 @@
   </head>
   <body>
     <header class="container">
-      <nav class="navbar fixed-top navbar-dark bg-dark mb-5">
-        <a class="navbar-brand" href="#">Ilya's Portfolio</a>
-        <a class="nav-item nav-link text-light" href="#About">About</a>
-        <a class="nav-item nav-link text-light" href="#Portfolio">Portfolio</a>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <a class="navbar-brand" href="#">Ilya's Portfolio</a>
+          <a class="nav-item nav-link text-light" href="#About">About</a>
+          <a class="nav-item nav-link text-light" href="#Projects">Projects</a>
+        </div>
       </nav>
     </header>
     <div class="parallax">
@@ -63,8 +76,8 @@
         </div>
       </div>
     </div>
-    <main class="container animated slideInLeft delay">
-      <section id="About" class="jumbotron">
+    <main class="container">
+      <section id="About" class="jumbotron animated slideInLeft delay">
         <h1 class="text-center">About</h1>
         <p class="lead">
           This page will be for the Portfolio.
@@ -74,7 +87,7 @@
         id="Portfolio"
         class="animated slideInRight slow jumbotron delay"
       >
-        <h1 class="text-center">Portfolio</h1>
+        <h1 class="text-center">Projects</h1>
         <div class="row">
           <div class="col-sm-4">
             <figure class="figure">
