@@ -33,6 +33,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="container">
@@ -100,10 +101,10 @@
       </div>
     </div>
     <main class="container">
-      <section id="Projects" class="animated slideInRight slow jumbotron delay">
+      <section id="Projects" data-aos="slide-up" class="jumbotron">
         <h1 class="text-center">Projects</h1>
         <div class="row">
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure class="figure">
               <a href="https://codepen.io/Elijah743/full/ypqzYZ" target="_blank"
                 ><img
@@ -116,7 +117,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a href="https://codepen.io/Elijah743/full/ypqzYZ" target="_blank"
                 ><img
@@ -129,7 +130,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/dJdwgJ/"
@@ -146,7 +147,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/VVPJJL"
@@ -163,7 +164,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/pLpRPp"
@@ -180,7 +181,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/rQbzZB"
@@ -192,14 +193,14 @@
                   alt="Screenshot of freeCodeCamp: Technical Documentation Page"
                 />
               </a>
-              <figcaption class="figure-caption">
+              <figcaption data-aos="slide-up" class="figure-caption">
                 Technical Documentation
               </figcaption>
             </figure>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/QWWOjRG"
@@ -216,7 +217,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/mdboVRM"
@@ -233,7 +234,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-sm-4">
+          <div data-aos="slide-up" class="col-sm-4">
             <figure>
               <a
                 href="https://codepen.io/Elijah743/full/bGGqeBa"
@@ -252,7 +253,7 @@
           </div>
         </div>
       </section>
-      <section id="About" class="jumbotron animated slideInLeft delay">
+      <section id="About" data-aos="slide-up" class="jumbotron">
         <h1 class="text-center">About</h1>
         <p class="lead">
           Lorem Ipsum
@@ -260,5 +261,9 @@
       </section>
     </main>
     <footer class="fixed-bottom">Designed by Ilya</footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
